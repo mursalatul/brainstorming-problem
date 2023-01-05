@@ -1,0 +1,11 @@
+Step 1: Find the highest power of 2 that divides M.
+This is done by dividing M by 2 repeatedly until it is no longer divisible by 2.
+The number of times that M was divided by 2 is the highest power of 2 that divides M.
+
+Step 2: If the highest power of 2 that divides M (P) is equal to or greater than N,
+then M is already divisible by 2^N. In this case, X can be set to 1.
+
+Step 3: If P is less than N, then M is not divisible by 2^N.
+In this case, we can set X to 2^(N-P) in order to make M * X divisible by 2^N.
+This is because M * 2^(N-P) is equal to (2^P * M) * 2^(N-P), which is equal to 2^N * M.
+Since 2^N * M is divisible by 2^N, M * 2^(N-P) is also divisible by 2^N.

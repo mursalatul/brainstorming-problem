@@ -1,0 +1,17 @@
+Easiest Problem
+link: https://www.hackerrank.com/contests/new-year-contest-2023/challenges/easiest-problem-2-3 
+
+You are given two integer N and M. You have to tell the minimum positive integer let say X, after multiplying with M is divisible by 2^N (2 to the power of N).
+More formally, find minimum positive integer X such that (M * X) is perfectly divisible by 2^N (2 to the power of N). As the number can be very large that’s why you have to print X as power of 2. (i.e 8 = 2^3).
+
+Input Format
+The first line contains one integer T — the number of test cases.
+
+Each of the next T line have 2 integer N and M.
+
+Constraints
+1 <= T <= 10
+1 <= N, M <= 1e14
+
+Output Format
+Output require minimum positive integer as power of 2.
